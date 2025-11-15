@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gone Swetha | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Portfolio of Gone Swetha, CSE (AI & ML) student with experience in AI, ML, web development and computer vision." />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <span class="logo">GS</span>
+      <span class="brand">Gone Swetha</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <!-- Left: photo + text -->
+    <div class="hero-main">
+      <div class="hero-photo-wrapper">
+        <img src="assets/ssphoto.jpg" alt="Gone Swetha" class="hero-photo" />
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-tag">CSE (AI & ML) | 3rd Year</p>
+        <h1>Hi, I'm <span class="accent">Gone Swetha</span></h1>
+        <p class="hero-subtitle">
+          A passionate and motivated AI & ML student with hands-on experience in Python, machine learning,
+          web development, and intelligent video analytics.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>📍 Hyderabad, Telangana</span>
+          <span>🎓 B.Tech CSE (AI & ML), KG Reddy College</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: highlight card -->
+    <div class="hero-card">
+      <div class="hero-badge">Actively seeking opportunities</div>
+      <h2>AI & ML Enthusiast</h2>
+      <p>
+        I enjoy building ML models and full-stack apps that solve real-world problems in
+        healthcare, sustainability, and computer vision.
+      </p>
+      <ul class="hero-list">
+        <li>✅ Heart Disease Prediction using ML</li>
+        <li>✅ AI-powered Food Waste Management</li>
+        <li>✅ Intelligent Video Anomaly Detection</li>
+      </ul>
+
+      <a href="assets/Gone_Swetha_Resume.pdf" target="_blank" class="btn full">
+        📄 View Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="section-header">
+      <h2>Projects</h2>
+      <p>Some of the work I'm most proud of.</p>
+    </div>
+
+    <div class="grid projects-grid">
+      <!-- Project 1 -->
+      <article class="card project-card">
+        <div class="project-tag">Machine Learning</div>
+        <h3>Heart Disease Predictor</h3>
+        <p class="project-meta">Jan 2024 – Mar 2024 · Python, Scikit-learn, Pandas</p>
+        <ul>
+          <li>Developed an ML model to predict heart disease risk with <strong>88.52% accuracy</strong>.</li>
+          <li>Performed data preprocessing and feature engineering for clinical data.</li>
+          <li>Evaluated models using F1-score and ROC-AUC.</li>
+        </ul>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card project-card">
+        <div class="project-tag">AI for Sustainability</div>
+        <h3>Smart Serve – AI-Powered Food Waste Management</h3>
+        <p class="project-meta">Nov 2024 – Jan 2025 · Flask, Streamlit, TensorFlow</p>
+        <ul>
+          <li>Predicted surplus food and automated matching with nearby NGOs.</li>
+          <li>Implemented a dashboard for expiry alerts and CO₂ savings tracking.</li>
+        </ul>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card project-card">
+        <div class="project-tag">Computer Vision</div>
+        <h3>Intelligent Video Anomaly Detection</h3>
+        <p class="project-meta">Mar 2025 – May 2025 · YOLOv8, OpenCV, Vite</p>
+        <ul>
+          <li>Detected low-light, occlusion and unusual objects in video streams.</li>
+          <li>Generated Excel reports with timestamps and severity details.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section section-alt">
+    <div class="section-header">
+      <h2>Technical Skills</h2>
+      <p>Technologies and tools I use most often.</p>
+    </div>
+
+    <div class="grid skills-grid">
+      <div class="card">
+        <h3>Programming Languages</h3>
+        <div class="chip-group">
+          <span class="chip">Python</span>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">Java (Basics)</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Frameworks & Tools</h3>
+        <div class="chip-group">
+          <span class="chip">Flask</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">TailwindCSS</span>
+          <span class="chip">Pandas</span>
+          <span class="chip">NumPy</span>
+          <span class="chip">Scikit-learn</span>
+          <span class="chip">YOLOv8</span>
+          <span class="chip">OpenCV</span>
+          <span class="chip">Git & GitHub</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Core Strengths</h3>
+        <ul class="skills-list">
+          <li>Machine Learning & Computer Vision</li>
+          <li>Data preprocessing & feature engineering</li>
+          <li>Model evaluation & reporting</li>
+          <li>REST API integration & basic full-stack dev</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="section-header">
+      <h2>Education</h2>
+    </div>
+
+    <div class="card edu-card">
+      <h3>B.Tech in Computer Science & Engineering (AI & ML)</h3>
+      <p class="edu-meta">KG Reddy College of Engineering · 2022 – 2026</p>
+      <p class="edu-meta">Current CGPA: <strong>8.3</strong></p>
+      <p>
+        Coursework and projects focused on machine learning, deep learning, and intelligent systems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section section-alt">
+    <div class="section-header">
+      <h2>Certificates</h2>
+    </div>
+
+    <div class="grid cert-grid">
+      <div class="card">
+        <h3>Microsoft Office Essential Skills</h3>
+        <p class="cert-meta">Udemy · Jan 2023</p>
+      </div>
+      <div class="card">
+        <h3>Programming for Everybody (Python)</h3>
+        <p class="cert-meta">Coursera · May 2023</p>
+      </div>
+      <div class="card">
+        <h3>SAWIT.AI Learnathon – Fundamentals of Generative AI</h3>
+        <p class="cert-meta">GUVI · Feb 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section (Horizontal) -->
+  <section id="contact" class="section">
+    <div class="section-header">
+      <h2>Contact</h2>
+      <p>Let’s connect for internships, projects, or collaborations.</p>
+    </div>
+
+    <div class="contact-horizontal">
+      <div class="contact-item">📍 Hyderabad, Telangana</div>
+      <div class="contact-item">📞 +91 86886 45961</div>
+      <div class="contact-item">✉️ swethagone017@gmail.com</div>
+      <div class="contact-item">🔗 LinkedIn: Gone Swetha</div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
